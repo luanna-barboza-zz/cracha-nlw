@@ -13,15 +13,15 @@ function changeSocialMediaLinks() {
     li.children[0].href = `http://${social}.com/${linksSocialMedia[social]}`
   }
 }
-getSocialMediaLinks()
+// getSocialMediaLinks()
 
-function changeLinkedInLink() {
-  for (let li of socialLinks.children) {
-    li.children[0].href = `http://linkedin.com/in/${linksSocialMedia.linkedin}`
-  }
-}
+// function changeLinkedInLink() {
+//   for (let li of socialLinks.children) {
+//     li.children[0].href = `http://linkedin.com/in/${linksSocialMedia.linkedin}`
+//   }
+// }
 
-getLinkedInLink()
+// getLinkedInLink()
 
 function getGitHubProfileInfos() {
   const url = `https://api.github.com/users/${linksSocialMedia.github}`
